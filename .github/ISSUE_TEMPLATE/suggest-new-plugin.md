@@ -4,7 +4,7 @@ about: Suggest a new extension that should be included in the list of extensions
   with Arduino IDE 2.x. Please provide as much information as possible so we can add
   the extension to the list.
 title: "[SUGGEST NEW PLUGIN]"
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
