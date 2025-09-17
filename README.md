@@ -22,6 +22,8 @@ This plugin supports use of code security on Teensy 4.x by adding commands to Ar
 
 ### Projects in Development
 1. [ESP Network Monitor](https://github.com/Quency-D/esp-network-monitor): Used to monitor data sent over the ESP32 network port. Its condition is in an early stage of development.
+2. [RooCode](https://github.com/RooCodeInc/Roo-Code): Provides integration with local or external AI models (such as OpenAI) for programming assistance. Currently, it is not fully compatible with Arduino IDE 2.x — installation and model detection work, but the chat functionality fails. It is known to work properly with TheiaIDE.
+
 
 ### Standard VS Code Extensions
 In addition to the extensions specific to Arduino IDE 2.x, there are a wide range of standard VS Code extensions that are supported. These extensions are well tracked by the [VS Code Marketplace](https://marketplace.visualstudio.com/) and the [Open VSX Registry](https://open-vsx.org/), making searching and installation easier of new resources. An example is the [WakaTime extension for Arduino IDE](https://github.com/wakatime/vscode-wakatime) (Installation instructions at [wakatime.com/arduino-ide](https://wakatime.com/arduino-ide)), which allows fully automatic time tracking to assist with time management on each project.
