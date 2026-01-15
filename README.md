@@ -22,6 +22,12 @@ SPIFFS uploader compatible with Arduino IDE 2.2.1 or higher. For use with the Ra
 1. [Teensy Security Plugin](https://github.com/PaulStoffregen/secure_plugin_vscode):
 This plugin supports use of code security on Teensy 4.x by adding commands to Arduino IDE.
 
+1. [Extension Manager](https://github.com/NikolaiRadke/Extension-Manager): Manage installed extensions in Arduino IDE 2.x - enable, disable, install, and uninstall extensions directly from the IDE. Compatible with Arduino IDE 2.6.7 or higher.
+
+1. [Arduino+](https://github.com/NikolaiRadke/Arduinoplus): Adds essential features that are missing from the standard Arduino IDE, delivering a more efficient and productive coding experience by allowing quick line commenting and uncommenting for easier debugging, instant duplication of code lines, advanced management and reuse of multiple code snippets through an enhanced snippet manager, and the creation of sketch anchors to quickly navigate to specific positions within the code. Compatible with Arduino IDE 2.6.7 or higher.
+
+1. [AI.duino](https://github.com/NikolaiRadke/AI.duino): AI.duino integrates the API providers Claude, ChatGPT, Gemini, Mistral, Perplexity and Cohere, Croq, aggregator services OpenRouter and Hugging Face, and local providers Claude Code, Codex CLI, LM Studio and Ollama directly into the Arduino IDE for intelligent code assistance. Compatible with Arduino IDE 2.6.7 or higher.
+
 ### Projects in Development
 1. [ESP Network Monitor](https://github.com/Quency-D/esp-network-monitor): Used to monitor data sent over the ESP32 network port. Its condition is in an early stage of development.
 2. [RooCode](https://github.com/RooCodeInc/Roo-Code): Provides integration with local or external AI models (such as OpenAI) for programming assistance. Currently, it is not fully compatible with Arduino IDE 2.x — installation and model detection work, but the chat functionality fails. It is known to work properly with TheiaIDE.
