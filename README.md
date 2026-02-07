@@ -9,6 +9,23 @@ Contributions to this list are welcome! If you know of an extension that should 
 
 ## Plugin List Contents
 ### Extensions that depend on the Arduino-specific data API
+0. [Highlight](https://open-vsx.org/extension/wayou/vscode-todo-highlight): Extension for highlighting Arduino specific constans, types and any keywords you want. Very easy to install and configure.\
+  To install - just copy vscode-todo-highlight-1.0.5.vsix to *user*\\.arduinoIDE\plugins.\
+  To configure - add to *user*\\.arduinoIDE\settings.json:
+```
+   "todohighlight.keywords": [
+		"byte", "word", "dword", "PROGMEM", "INPUT", "OUTPUT", "INPUT_PULLUP", "INPUT_PULLDOWN", "HIGH", "LOW",
+		{
+			"text": "typedef",
+			"color": "#728E00"
+		}
+	],
+	"todohighlight.defaultStyle": {
+		"color": "#00979D",
+		"backgroundColor": "transparent"
+	}
+```
+
 1. [Arduino LittleFS Upload](https://github.com/earlephilhower/arduino-littlefs-upload): Extension for uploading files to the LittleFS file system of Raspberry Pi Pico RP2040, ESP8266 and ESP32 Arduino core devices.
 
 1. [Arduino Sketch Vault](https://github.com/devista-consulting/arduino-sketch-vault): Integration of sketch [build profiles](https://arduino.github.io/arduino-cli/latest/sketch-project-file/#build-profiles) for Arduino IDE.
