@@ -9,6 +9,9 @@ Contributions to this list are welcome! If you know of an extension that should 
 
 ## Plugin List Contents
 ### Extensions that depend on the Arduino-specific data API
+
+1. [Arduino AVR Stub Debug Extension](https://github.com/IamTheVector/arduino-avr-stub-debug): PlatformIO-like AVR stub debug.
+
 1. [Arduino LittleFS Upload](https://github.com/earlephilhower/arduino-littlefs-upload): Extension for uploading files to the LittleFS file system of Raspberry Pi Pico RP2040, ESP8266 and ESP32 Arduino core devices.
 
 1. [Arduino Sketch Vault](https://github.com/devista-consulting/arduino-sketch-vault): Integration of sketch [build profiles](https://arduino.github.io/arduino-cli/latest/sketch-project-file/#build-profiles) for Arduino IDE.
