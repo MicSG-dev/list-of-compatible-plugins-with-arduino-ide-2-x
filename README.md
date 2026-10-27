@@ -19,6 +19,8 @@ ESP8266/ESP32 exception decoder extension for Arduino IDE. This tool is essentia
 1. [Arduino Spiffs Upload](https://github.com/espx-cz/arduino-spiffs-upload):
 SPIFFS uploader compatible with Arduino IDE 2.2.1 or higher. For use with the Raspberry Pi Pico RP2040 Arduino core arduino-pico, the community ESP8266 Arduino core and the community ESP32 Arduino core.
 
+1. [Forgetfulino](https://github.com/IamTheVector/Forgetfulino-Extension): Embed source code into the compiled sketch program.
+
 1. [Teensy Security Plugin](https://github.com/PaulStoffregen/secure_plugin_vscode):
 This plugin supports use of code security on Teensy 4.x by adding commands to Arduino IDE.
 
